@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<allhorses>
+    <horses>
+        <horse>
+            <numberHorse>1</numberHorse>
+            <nameHorse>That Darn Gray Cat</nameHorse>
+            <odds>11</odds>
+            <status>false</status>
+        </horse>
+        <horse>
+            <numberHorse>2</numberHorse>
+            <nameHorse>Fort Utopia</nameHorse>
+            <odds>10</odds>
+            <status>false</status>
+        </horse>
+        <horse>
+            <numberHorse>3</numberHorse>
+            <nameHorse>Count Sheep</nameHorse>
+            <odds>9</odds>
+            <status>true</status>
+        </horse>
+        <horse>
+            <numberHorse>4</numberHorse>
+            <nameHorse>Ms Traitour</nameHorse>
+            <odds>4</odds>
+            <status>false</status>
+        </horse>
+        <horse>
+            <numberHorse>5</numberHorse>
+            <nameHorse>Real Princess</nameHorse>
+            <odds>3</odds>
+            <status>false</status>
+        </horse>
+        <horse>
+            <numberHorse>6</numberHorse>
+            <nameHorse>Pa Kettle</nameHorse>
+            <odds>5</odds>
+            <status>false</status>
+        </horse>
+        <horse>
+            <numberHorse>7</numberHorse>
+            <nameHorse>Gin Stinger</nameHorse>
+            <odds>6</odds>
+            <status>false</status>
+        </horse>
+    </horses>
+</allhorses>

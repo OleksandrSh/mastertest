@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<allmoney>
+    <money>
+        <money>
+            <nominal>100</nominal>
+            <count>10</count>
+        </money>
+        <money>
+            <nominal>20</nominal>
+            <count>10</count>
+        </money>
+        <money>
+            <nominal>10</nominal>
+            <count>10</count>
+        </money>
+        <money>
+            <nominal>5</nominal>
+            <count>10</count>
+        </money>
+        <money>
+            <nominal>1</nominal>
+            <count>10</count>
+        </money>
+    </money>
+</allmoney>
