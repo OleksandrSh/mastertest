@@ -3,7 +3,7 @@ package HorseATM.entity;
 /**
  * Created by Oleksandr on 3/4/15.
  */
-public class Money {
+public class Money implements Comparable {
    private Integer nominal;
    private Integer count;
 
@@ -29,5 +29,20 @@ public class Money {
 
     public void setCount(Integer count) {
         this.count = count;
+    }
+    
+    @Override
+    public int compareTo(Object o)
+    {
+        Money tmp = (Money)o;
+        if(this.getNominal() < tmp.getNominal())
+        {
+            return 1;
+        }
+        else if(this.getNominal()> tmp.getNominal())
+        {
+            return -1;
+        }
+        return 0;
     }
 }
