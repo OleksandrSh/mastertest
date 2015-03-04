@@ -1,5 +1,5 @@
 
-В папке ForRun лежит готовий  jar для запуска с нім рядом обязательно должна быть папка lib horses.xml   и   money.xml.
+В папке ForRun лежит готовий  jar для запуска с ним рядом обязательно должна быть папка lib horses.xml   и   money.xml.
 строка запуска: java -jar HorseATM-1.0-SNAPSHOT.jar
 
 VARTEQ: Horse Track Programming Assignment
