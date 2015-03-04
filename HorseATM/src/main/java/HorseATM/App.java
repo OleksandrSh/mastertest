@@ -26,8 +26,8 @@ public class App {
         List<Money> allListMoney = moneyDAO.getAll();
         Scanner sc = Factory.FACTORY.getScanner();
         String s = "start";
-        manager.printAllHorse(mylovehorses);
         moneyManager.printAllMoney(allListMoney, "Inventory:");
+        manager.printAllHorse(mylovehorses);
         while (!s.equals("Q") && !s.equals("q")) {
             s = sc.nextLine();
             if (s.length() != 0) {
@@ -73,8 +73,9 @@ public class App {
                 if (matcher.find()) {
                     System.out.println("Invalid Bet: " + matcher.group(2));
                 }
-                manager.printAllHorse(mylovehorses);
+
                 moneyManager.printAllMoney(allListMoney, "Inventory:");
+                manager.printAllHorse(mylovehorses);
             }
         }
         System.out.println("Bye!");

@@ -30,7 +30,7 @@ public class Money implements Comparable {
     public void setCount(Integer count) {
         this.count = count;
     }
-    
+
     @Override
     public int compareTo(Object o)
     {
@@ -45,4 +45,5 @@ public class Money implements Comparable {
         }
         return 0;
     }
+
 }
